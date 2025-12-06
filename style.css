@@ -1,9 +1,76 @@
-body{
-    background-image: url(https://i.pinimg.com/1200x/50/b7/6c/50b76c5790cbcea451757ebc33c6abc0.jpg);
-    background-size: 100% ;
+/* Pixel Font */
+html,body{
+    background-color: #1f1f1f;
     text-align: center;
-    font-family: 'Times New Roman', 'Serif';
+    font-family: "Jersey 10", sans-serif;   
+    color: white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
 }
-img{
-    align-self: center;
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 20px;
+}
+
+
+/* Avatar */
+#avatar{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Main Title (pixel purple) */
+h1{
+    color: #c8a2ff;
+    font-size: 60px;
+    margin: 0;
+}
+
+/* Section Title (pixel blue) */
+h2{
+    color: #7dd3fc;
+    font-size: 38px;
+    margin-top: 0px;
+}
+
+/* Skills Table */
+table{
+    margin: 0 auto;
+    border-spacing: 20px;
+}
+
+th {
+    min-width:150px;
+    padding:20px;
+    background:#2b2b2b;
+    border:1px solid #3a3a3a;
+    border-radius:10px; 
+    text-align:center;
+}
+
+/* Footer */
+footer{
+    background-color: #242424;
+    color: #e2e2e2;
+    padding: 20px;
+    margin-top: auto;
+}
+
+footer a {
+    color: #c8a2ff;
+    margin: 10px;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
