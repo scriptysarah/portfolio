@@ -1,49 +1,62 @@
 <!DOCTYPE html>
-<html>
-   <head>
-      <title>Sarah's Portfolio</title>
-      <link rel="stylesheet" href="style.css"/>
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
-   </head>
-   <body>
-      <header>
-         <h1>Sarah's portfolio</h1>
-         <img src="sarah.png" id="avatar"><br>
-         <small>High school developer • Learning, building, improving</small> 
-      </header>
-      <section>
-         <h2>About Me</h2>
-         <p>Hey! I’m Sarah, a high-school student exploring computer science.<br>
-            I love minimal design, coding, digital art, and learning new tools.<br>
-            Currently learning HTML, CSS basics, Python, and Java for AP CSA.<br>
-            I’m also experimenting with websites, Discord bots, and creative projects.<br>
-         </p>
-      </section>
-      <section>
-         <h2>Skills</h2>
-            <table class="skills">
-               <tr>
-                  <th>Html</th>
-                  <th>CSS</th>
-                  <th>Js</th>
-                  <th>Java</th>
-                  <th>Python</th>
-               </tr>
-               <tr>
-                <td><i class="fa-brands fa-html5"></i></td>
-               </tr>
-            </table>
-        <section>
-            <h2>COMING SOON!</h2>
-            <p>I’m working on future projects & experiments — they'll be added here soon!</p>
-        </section>
-      </section>
-      <footer>
-         <h2>Let's connect</h2>
-         <a href="" title="">GitHub</a>
-         <a href="mailto:s.diordev@gmail.com" title="">Email</a>
-      </footer>
-   </body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sarah's Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class="scanlines"></div>
+
+    <div class="container">
+        <header>
+            <div class="header-content">
+                <img src="sarah.png" id="avatar" alt="Sarah's Avatar">
+                <div>
+                    <h1>SARAH_OS v1.0</h1>
+                    <small>High school developer • Learning, building, improving</small> 
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <section class="card">
+                <h2>[ About Me ]</h2>
+                <p>Hey! I’m Sarah, a high-school student exploring computer science.<br>
+                   Currently learning HTML, CSS basics, Python, and Java for AP CSA.<br>
+                   I’m experimenting with websites, Discord bots, and creative projects.
+                </p>
+            </section>
+
+            <section class="card">
+                <h2>[ Stats / Skills ]</h2>
+                <div class="skills-grid">
+                    <div class="skill-item"><i class="fa-brands fa-html5"></i><br>HTML</div>
+                    <div class="skill-item"><i class="fa-brands fa-css3-alt"></i><br>CSS</div>
+                    <div class="skill-item"><i class="fa-brands fa-js"></i><br>JS</div>
+                    <div class="skill-item"><i class="fa-brands fa-java"></i><br>JAVA</div>
+                    <div class="skill-item"><i class="fa-brands fa-python"></i><br>PYTHON</div>
+                </div>
+            </section>
+
+            <section class="card">
+                <h2 class="blink">LOADING PROJECTS...</h2>
+                <p>I’m working on future projects & experiments — they'll be added here soon!</p>
+            </section>
+        </main>
+
+        <footer>
+            <h2>Connect with Player 1</h2>
+            <div class="footer-links">
+                <a href="https://github.com/scriptysarah" class="btn">GitHub</a>
+                <a href="mailto:s.diordev@gmail.com" class="btn">Email</a>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
